@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/get', (req, res) => {
-    res.send('GET REQUEST')
+    res.send('GET REQUEST') 
 })
 
 app.post('/post', (req, res) => {
